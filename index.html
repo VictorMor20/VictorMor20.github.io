@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Si quieres los componentes de informática al mejor precio no dudes en ponerte en contacto con nosotros">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="img/logoMundoTech (1).PNG">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Bootstrap</title>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-warning-subtle shadow-lg">
+    <div class="container-fluid" id="nav" >
+    <a class="navbar-brand" href="#"><img src="img/logoMundoTech (1).PNG" alt="logoPagina" id="logo"  data-bs-toggle="tooltip" data-bs-placement="top" title="Telefono: 658965236 Correo: hola@gmail.com"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#lenguajes">Lenguajes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <h1 class="text-center">VICTOR MORENO SANZ</h1>
+<!--Inicio Descripción-->
+<div class="accordion shadow-lg" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Datos Personales
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body bg-warning-subtle">
+        <p>Nombre: <strong>Víctor Moreno Sanz.</strong></p>
+        <p>Fecha Nacimiento: <strong>28 de Diciembre de 2003.</strong></p>
+        <p>Lugar de Nacimiento: <strong>Móstoles(Madrid).</strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Datos Académicos
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body bg-warning-subtle">
+        <p><strong>Técnico de Sistemas Microinformáticos y Redes</strong> IES El Cañaveral | Septiembre 2020 - Junio 2023</p>
+        <p><strong>Técnico Superior de Desarrollo de Aplicaciones Web</strong>.CDM FP Escuela de Profesiones Digitales | Septiembre 2023 - Actualidad</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Habilidades
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body bg-warning-subtle">
+        <p>-Observador</p>
+        <p>-Sociable</p>
+        <p>-Trabajador</p>
+        <p>-Organizado</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Fin Descripción-->
+<h3 class="text-center" id="proyectos">PROYECTOS</h3>
+<!--Inicio Cartas-->
+<div class="container text-center gap-5">
+    <div class="row gap-5 justify-content-sm-center" id="row">
+        <div class="card col-xxl col-m-6 col-sm-12 bg-warning-subtle shadow-lg" style="width: 18rem;">
+        <img src="img/trabajo1.PNG" class="card-img-top imagenes" alt="coolerMaster">
+        <div class="card-body">
+            <h5 class="card-title">Web Halloween</h5>
+            <p class="card-text">Lenguajes: <strong>HTML,CSS</strong></p>
+            <a href="https://victormoreno.segundodedaw.es/webHalloweenVictorMorenoSanz/"><button href="#" class="btn btn-primary">Visitar Web</button></a><br><br>
+            <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal">Hazme click!!!</button>
+        </div>
+        </div>
+  <div class="card col-xxl col-m-6 col-sm-12 bg-warning-subtle shadow-lg" style="width: 18rem;">
+  <img src="img/trabajo2.PNG" class="card-img-top imagenes" alt="corsair">
+  <div class="card-body">
+    <h5 class="card-title">Web Bento</h5>
+    <p class="card-text">Lenguajes: <strong>HTML,CSS</strong></p>
+    <a href="https://victormoreno.segundodedaw.es/bentoGrid/"><button href="#" class="btn btn-primary">Visitar Web</button></a><br><br>
+    <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal">Hazme click!!!</button>
+  </div>
+  </div>
+  <div class="card col-xxl col-m-6 col-sm-12 bg-warning-subtle shadow-lg" style="width: 18rem;">
+  <img src="img/trabajo3.PNG" class="card-img-top imagenes" alt="gigabyte">
+  <div class="card-body">
+    <h5 class="card-title">Web Navidad</h5>
+    <p class="card-text">Lenguajes: <strong>HTML,CSS,PHP y JavaScript.</strong></p>
+    <a href="https://victormoreno.segundodedaw.es/webNavidadVictorMorenoSanz/"><button href="#" class="btn btn-primary">Visitar Web</button></a><br><br>
+    <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal">Hazme click!!!</button>
+  </div>
+  </div>
+  </div>
+  <div class="row gap-5 justify-content-sm-center" id="row">
+  <div class="card col-xxl col-m-6 col-sm-12 bg-warning-subtle shadow-lg" style="width: 18rem;">
+  <img src="img/trabajo5.PNG" class="card-img-top imagenes" alt="kingston">
+  <div class="card-body">
+    <h5 class="card-title">Web Tienda informática</h5>
+    <p class="card-text">Lenguajes: <strong>HTML,CSS,PHP y JavaScript</strong></p>
+    <a href="https://victormoreno.segundodedaw.es/mundotech/index.php"><button href="#" class="btn btn-primary">Visitar Web</button></a><br><br>
+    <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal">Hazme click!!!</button>
+  </div>
+</div>
+<div class="card col-xxl col-m-6 col-sm-12 bg-warning-subtle shadow-lg" style="width: 18rem;">
+  <img src="img/tranajo4.PNG" class="card-img-top imagenes" alt="msi">
+  <div class="card-body">
+    <h5 class="card-title">Web Guardería</h5>
+    <p class="card-text">Lenguajes: <strong>PHP,HTML,CSS y JavaScript</strong></p>
+    <a href="https://victormoreno.segundodedaw.es/Kiddly/"><button href="#" class="btn btn-primary">Visitar Web</button></a><br><br>
+    <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal">Hazme click!!!</button>
+  </div>
+</div>
+<div class="card col-xxl col-m-6 col-sm-12 bg-warning-subtle shadow-lg" style="width: 18rem;">
+  <img src="img/tranajo6.PNG" class="card-img-top imagenes" alt="tp-link">
+  <div class="card-body">
+    <h5 class="card-title">Juego Siete y Media</h5>
+    <p class="card-text">Lenguajes: <strong>HTML,CSS y JavaScript</strong></p>
+    <a href="https://victormoreno.segundodedaw.es/sieteMedia/"><button href="#" class="btn btn-primary">Visitar Web</button></a><br><br>
+    <button href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal">Hazme click!!!</button>
+  </div>
+</div>
+</div>
+</div>
+<!--Final Cartas-->
+<!--Inicio Modal-->
+<div class="modal fade" id="miModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Autor de la Página</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Autor: Víctor Moreno Sanz</p>
+        <p>Correo: victormorenosanz2003@gmail.com</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Final Modal-->
+<!--Inicio Acordeon-->
+<h3 class="text-center" id="lenguajes">Lenguajes de Programación</h3>
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        HTML
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body bg-warning-subtle">
+            <img src="img/html.png" alt="logoHTML" class="object-fit-cover d-block mx-auto" height="200px">
+          </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        JavaScript
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body bg-warning-subtle">
+            <img src="img/js.webp" alt="logoHTML" class="object-fit-cover d-block mx-auto" height="200px">
+          </div>
+          </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Python
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body bg-warning-subtle">
+        <img src="img/python.png" alt="logoHTML" class="object-fit-cover d-block mx-auto" height="200px">
+      </div>
+    </div>
+  </div>
+<div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        PHP
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body bg-warning-subtle">
+        <img src="img/php.png" alt="logoHTML" class="object-fit-cover d-block mx-auto" height="200px">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+        Java
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body bg-warning-subtle">
+        <img src="img/java.png" alt="logoHTML" class="object-fit-cover d-block mx-auto" height="200px">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+        SQL
+      </button>
+    </h2>
+    <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body bg-warning-subtle">
+        <img src="img/sql.png" alt="logoHTML" class="object-fit-cover d-block mx-auto" height="200px">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+        CSS
+      </button>
+    </h2>
+    <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body bg-warning-subtle">
+        <img src="img/css.png" alt="logoHTML" class="object-fit-cover d-block mx-auto" height="200px">
+      </div>
+    </div>
+  </div>
+</div>
+<!--Final Acordeon-->
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+    </ul>
+  </footer>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
